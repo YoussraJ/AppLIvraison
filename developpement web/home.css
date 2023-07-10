@@ -1,0 +1,67 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*  Start Screen sizing */
+@media (min-width: 768px){
+    .container {
+        width: 760px;
+    }
+}
+/* meduim */
+@media (min-width: 992px) {
+    .container {
+        width: 990px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1190px;
+    }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;   
+    /* add padding for size of mobile  */
+    padding-left: 0.313rem;
+    padding-right: 0.313rem;
+}    
+/*  End screen sizing  */
+.body {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.news {
+    display: flex;
+    position: relative;
+    right: 10vw;
+}
+.home{
+    margin-top: 20vh;
+}
+.title span {
+    display: block;
+    color: aquamarine;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.news .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:-200px;
+    top: 45px;
+}
+@media (max-width:759px){
+    
+}
